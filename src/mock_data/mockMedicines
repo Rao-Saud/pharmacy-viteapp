@@ -1,0 +1,252 @@
+ export const medicines = [
+  {
+    id: 1,
+    name: "Panadol",
+    price: 120,
+    description: "Used for fever, headache, and mild body pain.",
+    category: "Pain Relief",
+    stock: 85,
+    requiresPrescription: false,
+    imageUrl: "/images/medicines/panadol.jpg"
+  },
+  {
+    id: 2,
+    name: "Brufen",
+    price: 180,
+    description: "Anti-inflammatory medicine used for pain and fever.",
+    category: "Pain Relief",
+    stock: 60,
+    requiresPrescription: false,
+    imageUrl: "/images/medicines/brufen.jpg"
+  },
+  {
+    id: 3,
+    name: "Augmentin",
+    price: 650,
+    description: "Antibiotic for bacterial infections.",
+    category: "Antibiotics",
+    stock: 40,
+    requiresPrescription: true,
+    imageUrl: "/images/medicines/augmentin.jpg"
+  },
+  {
+    id: 4,
+    name: "Flagyl",
+    price: 220,
+    description: "Used for stomach infections and diarrhea.",
+    category: "Antibiotics",
+    stock: 35,
+    requiresPrescription: true,
+    imageUrl: "/images/medicines/flagyl.jpg"
+  },
+  {
+    id: 5,
+    name: "Ponstan Forte",
+    price: 150,
+    description: "Used for pain relief and menstrual cramps.",
+    category: "Pain Relief",
+    stock: 50,
+    requiresPrescription: false,
+    imageUrl: "/images/medicines/ponstan.jpg"
+  },
+  {
+    id: 6,
+    name: "Disprin",
+    price: 70,
+    description: "Used for headache and fever.",
+    category: "Pain Relief",
+    stock: 100,
+    requiresPrescription: false,
+    imageUrl: "/images/medicines/disprin.jpg"
+  },
+  {
+    id: 7,
+    name: "Risek",
+    price: 310,
+    description: "Used for acidity and heartburn.",
+    category: "Gastrointestinal",
+    stock: 45,
+    requiresPrescription: false,
+    imageUrl: "/images/medicines/risek.jpg"
+  },
+  {
+    id: 8,
+    name: "Calpol",
+    price: 140,
+    description: "Paracetamol syrup for children.",
+    category: "Pediatric",
+    stock: 30,
+    requiresPrescription: false,
+    imageUrl: "/images/medicines/calpol.jpg"
+  },
+  {
+    id: 9,
+    name: "Ventolin",
+    price: 480,
+    description: "Inhaler used for asthma.",
+    category: "Respiratory",
+    stock: 25,
+    requiresPrescription: true,
+    imageUrl: "/images/medicines/ventolin.jpg"
+  },
+  {
+    id: 10,
+    name: "Rigix",
+    price: 95,
+    description: "Anti-allergy medicine.",
+    category: "Allergy",
+    stock: 75,
+    requiresPrescription: false,
+    imageUrl: "/images/medicines/rigix.jpg"
+  },
+  {
+    id: 11,
+    name: "Arinac",
+    price: 160,
+    description: "Used for flu, cold, and nasal congestion.",
+    category: "Cold & Flu",
+    stock: 55,
+    requiresPrescription: false,
+    imageUrl: "/images/medicines/arinac.jpg"
+  },
+  {
+    id: 12,
+    name: "Cac-1000",
+    price: 200,
+    description: "Vitamin C supplement.",
+    category: "Vitamins",
+    stock: 90,
+    requiresPrescription: false,
+    imageUrl: "/images/medicines/cac1000.jpg"
+  },
+  {
+    id: 13,
+    name: "Surbex Z",
+    price: 350,
+    description: "Multivitamin supplement.",
+    category: "Vitamins",
+    stock: 70,
+    requiresPrescription: false,
+    imageUrl: "/images/medicines/surbexz.jpg"
+  },
+  {
+    id: 14,
+    name: "Motilium",
+    price: 260,
+    description: "Used for nausea and vomiting.",
+    category: "Gastrointestinal",
+    stock: 32,
+    requiresPrescription: true,
+    imageUrl: "/images/medicines/motilium.jpg"
+  },
+  {
+    id: 15,
+    name: "Diclowin",
+    price: 190,
+    description: "Painkiller for muscle and joint pain.",
+    category: "Pain Relief",
+    stock: 48,
+    requiresPrescription: false,
+    imageUrl: "/images/medicines/diclowin.jpg"
+  },
+  {
+    id: 16,
+    name: "Zyrtec",
+    price: 210,
+    description: "Used for allergies and sneezing.",
+    category: "Allergy",
+    stock: 67,
+    requiresPrescription: false,
+    imageUrl: "/images/medicines/zyrtec.jpg"
+  },
+  {
+    id: 17,
+    name: "Softin",
+    price: 130,
+    description: "Anti-allergy tablets.",
+    category: "Allergy",
+    stock: 58,
+    requiresPrescription: false,
+    imageUrl: "/images/medicines/softin.jpg"
+  },
+  {
+    id: 18,
+    name: "Amoxil",
+    price: 400,
+    description: "Antibiotic for bacterial infections.",
+    category: "Antibiotics",
+    stock: 28,
+    requiresPrescription: true,
+    imageUrl: "/images/medicines/amoxil.jpg"
+  },
+  {
+    id: 19,
+    name: "Septran",
+    price: 170,
+    description: "Antibiotic used for infections.",
+    category: "Antibiotics",
+    stock: 36,
+    requiresPrescription: true,
+    imageUrl: "/images/medicines/septran.jpg"
+  },
+  {
+    id: 20,
+    name: "Neurobion",
+    price: 280,
+    description: "Vitamin B complex supplement.",
+    category: "Vitamins",
+    stock: 62,
+    requiresPrescription: false,
+    imageUrl: "/images/medicines/neurobion.jpg"
+  },
+  {
+    id: 21,
+    name: "ORS",
+    price: 50,
+    description: "Oral rehydration salts for dehydration.",
+    category: "General Health",
+    stock: 120,
+    requiresPrescription: false,
+    imageUrl: "/images/medicines/ors.jpg"
+  },
+  {
+    id: 22,
+    name: "Buscopan",
+    price: 230,
+    description: "Used for stomach cramps and abdominal pain.",
+    category: "Gastrointestinal",
+    stock: 44,
+    requiresPrescription: false,
+    imageUrl: "/images/medicines/buscopan.jpg"
+  },
+  {
+    id: 23,
+    name: "Lexotanil",
+    price: 500,
+    description: "Used for anxiety and stress.",
+    category: "Mental Health",
+    stock: 20,
+    requiresPrescription: true,
+    imageUrl: "/images/medicines/lexotanil.jpg"
+  },
+  {
+    id: 24,
+    name: "Insulin Injection",
+    price: 1450,
+    description: "Used for diabetes management.",
+    category: "Diabetes",
+    stock: 18,
+    requiresPrescription: true,
+    imageUrl: "/images/medicines/insulin.jpg"
+  },
+  {
+    id: 25,
+    name: "Glucophage",
+    price: 320,
+    description: "Used for type 2 diabetes treatment.",
+    category: "Diabetes",
+    stock: 42,
+    requiresPrescription: true,
+    imageUrl: "/images/medicines/glucophage.jpg"
+  }
+];
